@@ -12,8 +12,8 @@ mvn test
 ### crud testing
 
 ```bahs
-curl localhost:9999/api/clients -X POST -H "content-type: application/json" -d '{"firstname": "Michał", "lastname": "Zzz", "address": {"street": "rakowicka"}}'
-curl localhost:9999/api/clients -X POST -H "content-type: application/json" -d '{"firstname": "Michał", "lastname": "Zzz", "address": {"street": "rakowicka"}}'
+curl localhost:9999/api/clients -X POST -H "content-type: application/json" -d '{"firstname": "Andrzej", "lastname": "Zzz", "address": {"street": "Karmelicka"}}'
+curl localhost:9999/api/clients -X POST -H "content-type: application/json" -d '{"firstname": "Andrzej", "lastname": "Zzz", "address": {"street": "Karmelicka"}}'
 
 curl localhost:9999/api/clients | python -m json.tool
 ```
